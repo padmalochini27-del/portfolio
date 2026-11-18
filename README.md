@@ -1,22 +1,50 @@
-# Padma Lochini S K — React Portfolio
+# Portfolio Website
 
-Responsive React + Vite portfolio with a dark, futuristic engineering aesthetic.
+A personal portfolio website built using React and Vite to showcase my education, technical skills, projects, certifications, and achievements.
 
-## Run locally
-1. Install Node.js LTS.
-2. Extract the project and open a terminal in this folder.
-3. Run `npm install`
-4. Run `npm run dev`
-5. Open the local URL printed by Vite.
+## Deploy on Vercel
 
-## Production build
-Run `npm run build`. The output is in `dist/`.
+1. Push this repository to GitHub.
+2. Go to https://vercel.com and click **Add New → Project**.
+3. Import this GitHub repository.
+4. Use the following settings:
+   - Framework Preset: Vite
+   - Root Directory: `./`
+   - Build Command: `npm run build`
+   - Output Directory: `dist`
+   - Install Command: `npm install`
+5. Click **Deploy**.
 
-## Deploy
-Import the repository into Vercel (Vite preset, build `npm run build`, output `dist`) or Netlify (same build and publish settings).
+## Run Locally
 
-## Before publishing
-- Replace generic project links with exact repository URLs where available.
-- Confirm the exact IIT Madras course title and add certificate links.
-- Verify exact credential names and certificate award status.
-- Add a profile photo if you want one; the hero illustration is CSS-based.
+1. Clone this repository.
+2. Open the project folder in a terminal.
+3. Install dependencies:
+
+   `npm install`
+
+4. Start the development server:
+
+   `npm run dev`
+
+5. Open the local URL displayed in the terminal.
+
+## Build for Production
+
+Run:
+
+`npm run build`
+
+The production-ready files will be generated in the `dist` folder.
+
+## Technologies Used
+
+- React.js
+- JavaScript
+- HTML
+- CSS
+- Vite
+
+## Deployment
+
+The website can be deployed using Vercel or other platforms that support static frontend applications.
