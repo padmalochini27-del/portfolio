@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A personal portfolio website built using React and Vite to showcase my education, technical skills, projects, certifications, and achievements.
+A personal portfolio website built using React and Vite to showcase my education, technical skills, projects, certifications, open source contribution and achievements.
 
 ## Deploy on Vercel
 
